@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Keyboard Keys Guide</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- [if lt IE 9] -->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" async>
+	</script>
+	<!-- [endif] -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+<script src="map.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+	<!-- wrapper centering content begins here -->
+	<header>
+	<!-- header section -->
+	<!-- keyboard logo image inserted in h1 section -->
+		<h1>
+			Keyboard Keys
+		</h1>
+	</header>
+	<nav>
+	<!-- nav section -->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="history.html">History</a></li>
+			<li><a href="guide.html">Guide</a></li>
+			<li><a href="tips.html">Tips</a></li>
+			<li><a href="troubleshoot.html">Troubleshoot</a></li>
+		</ul>
+	</nav>
+<main>
+	<!-- main section -->
+	<h2>Purchasing Guide</h2>
+	<hr>
+	<!-- form with address, city, state and zipcode -->
+	<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+		<fieldset>
+			<legend><h4>Find nearest computer store</h4></legend>
+			<label for="address">Address:</label><input type="text" name="address" id="address" placeholder="address"><br>
+			<label for="city">City:</label><input type="text" name="city" id="city" placeholder="city"><br>
+			<label for="state">State:</label><input type="text" name="state" id="state" placeholder="state"><br>
+			<label for="zipcode">Zipcode:</label><input type="text" name="zipcode" id="zipcode" placeholder="zipcode"><br>
+			<input type="submit" value="Submit" id="mySubmit">
+			<input type="reset" value="Clear" id="myClear">
+		</fieldset><br>
+	</form>
+	<!-- form with first name, last name, email, favorite url, rating, and comments section -->
+	<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+		<fieldset>
+			<legend><h4>Subscribe to mailing list</h4></legend>
+			<label for="fname">*First Name:</label><input type="text" name="fname" id="fname" placeholder="first name" required="required"><br>
+			<label for="lname">*Last Name:</label><input type="text" name="lname" id="lname" placeholder="last name" required="required"><br>
+			<label for="email">*Email:</label><input type="email" name="email" id="email" placeholder="name@domain.com" required="required"><br>
+			<label for="resrc">Favorite online store:</label><input type="url" name="resrc" id="resrc" placeholder="http://www.website.com"></br>
+			<label for="rating">Rate this site:</label>1<input type="range" name="rating" id="rating" min="1" max="5" value="3">5<br>
+			<label for="comments">Comments:</label>
+			<textarea name="comments" id="comments" rows="5" cols="40" placeholder="Help us help you!  Suggestions for improvements."></textarea><br><br>
+			<input type="submit" value="Submit" id="mySubmit">
+			<input type="reset" value="Clear" id="myClear">
+		</fieldset><br>
+	</form>
+
+</main>
+<footer>
+	<!-- footer section-->
+		<div class="linkborder">
+			<a href="index.html">Home</a>
+			|
+			<a href="history.html">History</a>
+			|
+			<a href="guide.html">Guide</a>
+			|
+			<a href="tips.html">Tips</a>
+			|
+			<a href="troubleshoot.html">Troubleshoot</a>
+		</div>
+		<br>
+		<!-- copyright section -->
+		<div class="copy">
+			Copyright &copy; 2015 Keyboard Keys<br>
+		</div>
+		<!-- email section -->
+		<div class="email">
+			Contact us:
+			<a href="mailto:keys@keyboardkeys.com">keys@keyboardkeys.com</a><br>
+		</div>
+	</footer>
+	</div>	
+</body>
+</html>

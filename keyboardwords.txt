@@ -1,0 +1,32 @@
+Home
+
+What has 101-104 plastic buttons that goes rarely noticed during computer useage?   The average desktop keyboard.  Frequently, computer users ignore keyboards and relegate these essential input devices as accessories.  Moreover, most keyboard are unnoticeable until button doesn't work or invariably a key is stuck.  This may be the case after a day of typing, but consider the average lifetime of a computer keyboard.  The average lifespan is typically measured in keystrokes and based on ASDkeys.com, membrane keys last for only 15 million keystrokes. Well consider, one blogger of compiledthoughts.com, his average keystroke usage per year was estimated at 2.6 million per year.  Granted not everyone uses theirs like a developer or journalist, but the even half that amounts to a sizeable 1.3 million keystrokes. that is considerable amount of force that is being applied to a set of plastic buttons.  Suboptimal environmental conditions and inconsistent manufacturing standards can also prematurely shorten lifespans of keyboards.  Computer user care can greatly impact on the longeveity of keyboards.  Consequently, computer consumers are faced with ever recurring dilemna of repairing keyboards and/or buying new ones.   
+
+History
+
+At first, keyboards were custom-built by hobbyists, but with the advent of mass-produced business computers, standardized keyboards were becoming more the norm.  Mechanical and membrane dome switches make up the majority of today's keyboard designs.  Generally, mechanical switches literally implement wire springs to activate a circuit switch, whereas membrane dome switches use layered synthetic dome signify a character stroke.  
+
+One of the first standardized keyboards created, was the IBM Model M. The IBM Model M is still considered the pinnacle of mechanical switch designs and one of the most successful industrial creations from that time period.  It was built both to be durable and responsive.  Mechanical keyboard enthusiast are still using some of these orignal Model M keyboards, even after years of useage.  
+
+Why aren't mechanical keyboards more popular?  Unfortunately with the advent of flexible membrane circuit designs and laptop computers, keyboards evolved into smaller, lighter, and more portable designs.  At the same time, mechanical keyboards were phased out due to their exacting standards, large size and high manufacturing costs.  Membrane dome switch keyboards now dominate the commericial keyboard industry.
+
+
+Guide
+
+Where to buy a used mechanical keyboard?
+Why used?  Many mechanical keyboards still have long lasting value beyond their initial use date.  Some have even been auctioned off with high market value, due to a recent renaissance of mechanical keyboards and its durable reputation.  Used mechanical keyboards can be found in used computer stores, pawnshops or recycled computer outlets.
+
+Find the nearest used computer outlet:
+Address city,state zip
+
+Map app.
+
+Other options are looking through online auction sites such as ebay.com or craigslist.  Many of these sites are rife with misinformation and site may not guarantee products description.  So buyer should beware. 
+
+Tips
+
+Several helpful routines should extend your keyboard beyond the warranty date.
+
+a)
+
+Troubleshoot

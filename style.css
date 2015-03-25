@@ -1,0 +1,249 @@
+/*global*/
+/*added font of traveling type to font */
+@font-face {
+	font-family: 'TravelingType';
+	src: url('TravelingTypewriter.ttf');
+}
+/*body section*/
+/*body will have background color of #969696;font color of #000000; font-family of arial, helvetica or sans-serif; font-size of .9em*/
+body { background-color:#969696; 
+		color: #000000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: .9em;		
+}
+
+/*sections*/
+/*header section*/
+
+/*header container will have height of 140px;background image of keyboard keys logo, which will be centered; not repeated; 
+and have background color of #B0B0B0*/
+header {
+		height: 140px;
+		background-image:url(keyboardlogo2.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-color:#B0B0B0;
+}
+
+/*h1 in header seciton will have margin of 0; text will be indented 100%; white space will not be wrapped; overflow will be hidden;
+this is to increase accessibility to visually impaired*/
+h1{ 
+	margin:0;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+/*nav section*/
+
+/*nav container will be floated left; text inside will be centered; font weight will be set to bold;
+font family will be set as traveling type with size 1.5em; and width 200px; padding will be present on left-right sides*/
+nav {
+	float:left;
+	text-align:center;
+	font-weight: bold;
+	font-family:'TravelingType', sans-serif;
+	font-size:1.5em;
+	padding: 0 10px;
+	}
+
+/*whole nav list items are removed of list behaviors, padding set to 0, margin set to 0, and list marks removed*/
+nav ul {
+	padding: 0;
+	margin-left: 0;
+	list-style-type: none;
+}
+
+/*converted nav link to block display fill container of unordered list item; links are set to not display underline*/
+nav a{
+	display:block;
+	text-decoration: none;
+}
+/*nav list items will have bottom margin spacing of 15px; border of solid black 2px line and white box shadow and border radius of 5px*/
+nav li {
+	margin-bottom: 15px;
+	border:black solid 2px;
+	box-shadow:1px 5px 5px white;
+	border-radius: 5px 5px;
+}
+/*nav list items will remain blue whether visited or not visited*/
+nav li a:link, nav li a:visited {
+	color: blue;
+}
+/*nav list items will turn white and have background color of #969696 when hovered*/
+nav li a:hover{
+	color: white;
+	background-color:#969696;
+}
+
+/*main section-all pages*/
+/*main will be blocked out and overflow will be set to auto, padding left will be set to 15px; background color will be #E0E0E0*/
+main {
+	display:block;
+	overflow:auto;
+	padding:15px 20px;
+	margin-left:200px;
+	background-color:#E0E0E0;
+	min-height:300px;
+	font-size: 1.15em;
+}
+
+/* paragraph under main section-all pages*/
+/* add padding 5px, increase font-size by 1.1 em, increase width to 100%, increase margin left and right by 5px*/
+main p {
+	padding:5px;
+	font-size: 1.1em;
+	width:100%;
+	margin:5px 0;
+}
+
+/*main img will have margin of 5px on all sides, and border of 3px white solid line*/
+main img {
+			border: 3px solid white;
+			display:block;
+}
+
+/*h2 heading should have text shadow of white 1px to give more contrast & font weight of bold*/
+h2 {
+	text-shadow:1px 1px 1px white;
+	font-weight: bold;
+}
+
+/*index.html*/
+/* all images within index page given margin 10px clearance*/
+.indeximage { margin: 10px;
+
+}
+
+/*history.html*/
+
+/*paraimage is paragraph with image- set to overflow to allow for proper clearing of subsequent paragraph*/
+.paraimage { overflow: auto;
+}
+
+/*guide.html*/
+
+/*set form width and change background color to create contrast, set padding on left and right by 20px, margin-top to 10px; create contrast with box shadow; different box-shadow for different browsers;*/
+form {  width:600px; 
+		border:1px solid white;
+		-moz-box-shadow: 1px 1px 1px #888;
+		-webkit-box-shadow: 1px 1px 1px #888;
+		box-shadow: 1px 1px 1px #888; 
+		margin-top: 10px;
+		padding: 0 20px;
+		background-color:#e7e7e7;}
+
+/*label of form floated to left, width set to 200px, text-aligned to right, padding set to 20px, margin-top set to 15px*/
+label {
+	float:left;
+	width:200px;
+	text-align: right;
+	padding-right: 20px; 
+	margin-top: 15px; }
+/*legend, input, label sections set to font-size of 1.1em*/
+legend,input, label { 	font-size: 1.1em; }
+
+/*input, textarea given margin top clearance of 15px*/
+input, textarea { margin-top: 15px;  }
+
+/*state input box increased width to 50px*/
+#state { width: 50px; }
+
+/*submit button create clearance from left container edge of 220px to put in center of container; given margin-top clearance of 20px*/
+#mySubmit { margin-left: 220px;
+			margin-top: 20px;}
+
+/*url resource input box increased width to 200px*/
+#resrc { width: 200px}
+
+/* rating scale reduced to 150px*/
+#rating {
+			width:150px;
+}
+
+/*tips.html*/
+/*list items given each top margin clearance of 10px, and increased font-size to 1.2 em*/
+.tipslist li {
+			margin-top:10px;
+			font-size: 1.2em
+}
+
+/*troubleshoot.html*/
+/*troubleshooting list increased font-size to 1.1em*/
+.troublelist {
+
+			font-size:1.1em;
+}
+/*each item in list is increased to margin top clearance of 10px*/
+.troublelist li {
+				margin-top:10px;
+}
+/*trouble image is given clearance of 20px around image*/
+.troubleimage { margin:20px;}
+
+
+/*footer section*/
+
+/*footer will be cleared from main and nav sections; any text will be centered; padding at bottom will be increased to 20px;
+footer background color will be set to #CFCFCF
+*/
+footer {clear:both;
+		text-align:center;
+		padding-bottom:20px;
+		background-color:#CFCFCF;
+		width:100%;
+}
+/*.linkborder div will have white border around it to separate links from copyright and email info*/
+.linkborder {
+			  border: 1px solid white;
+			  box-shadow: 0px 0px 2px;
+			  padding: 10px 0;
+}
+/*footer links will have no underline and font size of .9em, and left/right padding of 0.5em*/
+footer a { text-decoration:none; 
+				padding: 0 0.5em;
+				font-size:1.1em;
+}
+/*footer links will be blue whether visited or not*/
+footer a:link, footer a:visited {
+		color:blue;
+}
+/*footer links hovered will turn fonts white*/
+footer a:hover {
+	color:white;
+}
+
+/*classes*/
+/*copy and email classes are set to .8em font size, with italics, and centered*/
+.copy, .email { font-size: .8em;
+		font-style: italic;
+		text-align: center;
+	}
+/*image of keyboard is floated right in main container*/
+.floatright { float:right; }
+
+/*image of return key is floated left in main container*/
+.floatleft { float: left; 
+			 margin-right: 10px; }
+
+/*used to clear subsequent container of floating behavior*/
+.overflow {overflow:auto;}
+
+/*id*/
+
+/*wraps the content into width of 60% of viewport-more readable
+background-color set to #d3d3d3, min-width set as 750px and max-width as 1024px*/
+#wrapper {
+		  width:80%;
+		  margin-right: auto;
+		  margin-left:auto;
+		  min-width: 750px;
+		  max-width: 1024px;
+   	  	  background-color: #D3D3D3;
+   	  	  border:1px solid white;
+}
+
+/* for older browsers */
+header, nav, main, footer{
+	display:block;
+}
