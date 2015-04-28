@@ -23,6 +23,7 @@ header {
 		background-position:center;
 		background-repeat:no-repeat;
 		background-color:#B0B0B0;
+		min-width:700px;
 }
 
 /*h1 in header seciton will have margin of 0; text will be indented 100%; white space will not be wrapped; overflow will be hidden;
@@ -39,6 +40,7 @@ h1{
 /*nav container will be floated left; text inside will be centered; font weight will be set to bold;
 font family will be set as traveling type with size 1.5em; and width 200px; padding will be present on left-right sides*/
 nav {
+	width:175px;
 	float:left;
 	text-align:center;
 	font-weight: bold;
@@ -61,6 +63,7 @@ nav a{
 }
 /*nav list items will have bottom margin spacing of 15px; border of solid black 2px line and white box shadow and border radius of 5px*/
 nav li {
+	width: 160px;
 	margin-bottom: 15px;
 	border:black solid 2px;
 	box-shadow:1px 5px 5px white;
@@ -82,7 +85,6 @@ main {
 	display:block;
 	overflow:auto;
 	padding:15px 20px;
-	margin-left:200px;
 	background-color:#E0E0E0;
 	min-height:300px;
 	font-size: 1.15em;
@@ -124,7 +126,7 @@ h2 {
 /*guide.html*/
 
 /*set form width and change background color to create contrast, set padding on left and right by 20px, margin-top to 10px; create contrast with box shadow; different box-shadow for different browsers;*/
-form {  width:600px; 
+form, #map-canvas {  width:600px; 
 		border:1px solid white;
 		-moz-box-shadow: 1px 1px 1px #888;
 		-webkit-box-shadow: 1px 1px 1px #888;
@@ -159,6 +161,13 @@ input, textarea { margin-top: 15px;  }
 /* rating scale reduced to 150px*/
 #rating {
 			width:150px;
+}
+
+/*map*/
+#map-canvas {
+	height: 200px;
+	border: 3px solid white;
+
 }
 
 /*tips.html*/
@@ -246,4 +255,7 @@ background-color set to #d3d3d3, min-width set as 750px and max-width as 1024px*
 /* for older browsers */
 header, nav, main, footer{
 	display:block;
+}
+a {
+	font-style: italic;
 }

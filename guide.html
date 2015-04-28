@@ -37,17 +37,19 @@
 	<h2>Purchasing Guide</h2>
 	<hr>
 	<!-- form with address, city, state and zipcode -->
-	<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+	<form>
 		<fieldset>
-			<legend><h4>Find nearest computer store</h4></legend>
+			<legend><h4>Find nearest electronics store</h4></legend>
 			<label for="address">Address:</label><input type="text" name="address" id="address" placeholder="address"><br>
 			<label for="city">City:</label><input type="text" name="city" id="city" placeholder="city"><br>
 			<label for="state">State:</label><input type="text" name="state" id="state" placeholder="state"><br>
 			<label for="zipcode">Zipcode:</label><input type="text" name="zipcode" id="zipcode" placeholder="zipcode"><br>
-			<input type="submit" value="Submit" id="mySubmit">
+			<input type="button" value="Submit" id="mySubmit" onclick="codeAddress()">
 			<input type="reset" value="Clear" id="myClear">
 		</fieldset><br>
 	</form>
+	<!-- map -->
+	<div id="map-canvas"></div>
 	<!-- form with first name, last name, email, favorite url, rating, and comments section -->
 	<form method="post" action="http://webdevbasics.net/scripts/demo.php">
 		<fieldset>
